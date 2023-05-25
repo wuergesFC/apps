@@ -1,0 +1,25 @@
+citadel_version: 4
+
+metadata:
+  category: Explorers
+  name: portainer be
+  version: 3.3.0
+  tagline: Portainer BE
+  description: >-
+    PLACEHOLDE
+  developers: 
+    Placeholder: https://placeholder
+  # This is validated later to grant the app access
+  # To services it declares here
+  # Possible values include bitcoind, lnd, c-lightning and electrum
+  permissions:
+  repo: https://github.com/portainer/portainer
+  support: https://www.portainer.io/install
+  gallery:
+    - 1.jpg
+    - 2.jpg
+    - 3.jpg
+  # Use $APP_SEED for a securely generated password
+  # If you have a hardcoded default password, put that here instead
+  # If your app doesn't have a password, just leave this empty
+  defaultPassword: $APP_SEED
